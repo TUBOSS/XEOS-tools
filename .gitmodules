@@ -1,0 +1,9 @@
+[submodule "localedef"]
+	path = localedef
+	url = https://github.com/macmade/XEOS-tools-localedef.git
+[submodule "mkinitrd"]
+	path = mkinitrd
+	url = https://github.com/macmade/XEOS-tools-mkinitrd.git
+[submodule "make"]
+	path = make
+	url = https://github.com/macmade/XEOS-makefile.git

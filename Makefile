@@ -62,18 +62,17 @@
 include make/Config.mk
 include make/Targets.mk
 
+.NOTPARALLEL:
+
 PROMPT  := XEOS TOOLS
 DEPS    := 
 FILES   := 
+TARGETS := localedef mkinitrd
 
-all:
+all: build-sub
 	
-	$(call PRINT,$(COLOR_CYAN)Building localedef$(COLOR_NONE))
-	@cd localedef && $(MAKE)
-	$(call PRINT,$(COLOR_CYAN)Building mkinitrd$(COLOR_NONE))
-	@cd mkinitrd && $(MAKE)
+	@:
+
+clean: clean-sub
 	
-clean:
-	
-	@cd localedef && $(MAKE) clean
-	@cd mkinitrd && $(MAKE) clean
+	@:

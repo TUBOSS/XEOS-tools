@@ -7,3 +7,6 @@
 [submodule "make"]
 	path = make
 	url = https://github.com/macmade/XEOS-makefile.git
+[submodule "mkfat"]
+	path = mkfat
+	url = https://github.com/macmade/XEOS-tools-mkfat.git

@@ -10,3 +10,6 @@
 [submodule "mkfat"]
 	path = mkfat
 	url = https://github.com/macmade/XEOS-tools-mkfat.git
+[submodule "fatdump"]
+	path = fatdump
+	url = https://github.com/macmade/XEOS-tools-fatdump.git

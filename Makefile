@@ -70,7 +70,7 @@ include make/Targets.mk
 PROMPT  := XEOS TOOLS
 DEPS    := 
 FILES   := 
-TARGETS := localedef mkinitrd mkfat
+TARGETS := localedef mkinitrd
 
 all: build-sub
 	
